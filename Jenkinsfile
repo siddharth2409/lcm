@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       steps {
         sh 'date'
-        sh '''var d = [
+        sh '''d = [
     1,
     2
 ];
