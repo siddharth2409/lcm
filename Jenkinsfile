@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test1') {
           steps {
-            sh 'out = cat /User/sityagi/Desktop/Test.properties'
+            sh 'out = cat /User/sityagi/Desktop/test.properties'
             sh '$out | grep faovm.smc.HOST_FA'
           }
         }
